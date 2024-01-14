@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="4.0" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="dungeoncrawler" abstract="false" name="edwardg&apos;s RogeLite Dungeon" newsUrl="about:blank" version="1.20.4" generateList="false" autoConnect="false" revision="" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
+		<Import url="https://fabricmc.net/download/mcupdater?yarn=1.20.4%2Bbuild.3&amp;loader=0.15.3">fabric</Import>
+		<Module name="Concurrent Chunk Management Engine" id="c2me" depends="" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/533097/files/4939197/download</URL>
+			<Size>1259259</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f5ee5ca91a7a186747e8be22514f1037</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>A Fabric mod designed to improve the chunk performance of Minecraft.</description>
+				<version>0.2.0+alpha.11.38</version>
+				<authors>RelativityMC, ishland</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/272515/files/4993112/download</URL>
+			<Size>74210</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>41676dde5837d0326a8e502390c6cf3b</MD5>
+			<Meta>
+				<license>&quot;Don&apos;t Be a Jerk&quot; non-commercial care-free license</license>
+				<description>Improvements to the advancements screen.</description>
+				<version>0.3.3.166</version>
+				<authors>way2muchnoise</authors>
+			</Meta>
+		</Module>
+		<Module name="Dynamic FPS" id="dynamic_fps" depends="" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/335493/files/4990632/download</URL>
+			<Size>78355</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f2781735c4e40508fe1f749847f39e81</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Dynamically adjusts FPS so Minecraft doesn&apos;t hog resources in background.</description>
+				<version>3.3.2</version>
+				<authors>juliand665, LostLuma</authors>
+			</Meta>
+		</Module>
+		<Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/306612/files/4986876/download</URL>
+			<Size>2083082</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2113def4376d869657b299cfb4664e1d</MD5>
+			<Meta>
+				<license>Apache-2.0</license>
+				<description>Core API module providing key hooks and intercompatibility features.</description>
+				<version>0.92.0+1.20.4</version>
+				<authors>FabricMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Iris" id="iris" depends="sodium" side="CLIENT">
+			<URL priority="1">https://cdn.modrinth.com/data/YL57xq9U/versions/Xl7oywRL/iris-mc1.20.4-1.6.14.jar</URL>
+			<Size>2400882</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ccd09e1ff89f57197fa09002bf595b45</MD5>
+		</Module>
+		<Module name="Item Scroller" id="itemscroller" depends="malilib" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/242064/files/4946332/download</URL>
+			<Size>117890</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ff3d342d40799e4f90740874ace7edbe</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Move items in inventory GUIs by scrolling the mouse wheel or dragging over slots</description>
+				<version>0.22.0</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Lithium" id="lithium" depends="" side="SERVER">
+			<URL priority="1">https://cdn.modrinth.com/data/gvQqBUqZ/versions/nMhjKWVE/lithium-fabric-mc1.20.4-0.12.1.jar</URL>
+			<Size>716022</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>83da6729d5402dc42eca740a96f97346</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.</description>
+				<version>0.12.1</version>
+				<authors>JellySquid, 2No2Name</authors>
+			</Meta>
+		</Module>
+		<Module name="MaLiLib" id="malilib" depends="" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/303119/files/4946328/download</URL>
+			<Size>746242</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5db8fbcf75e3eb2b81e67aed577ab579</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>A library mod required by masa&apos;s client-side mods</description>
+				<version>0.18.0</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="MiniHUD" id="minihud" depends="malilib" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/244260/files/4946335/download</URL>
+			<Size>328395</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b5e981c4c0b2912f8533b3f26822688</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Configurable &quot;mini-F3&quot; info lines, and various overlay renderers</description>
+				<version>0.30.0</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Mod Menu" id="modmenu" depends="" side="CLIENT">
+			<URL priority="1">https://cdn.modrinth.com/data/mOgUt4GM/versions/sjtVVlsA/modmenu-9.0.0.jar</URL>
+			<Size>724484</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7eb06d459405ed6c87b16f4c5be4493d</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds a mod menu to view the list of mods you have installed.</description>
+				<version>9.0.0</version>
+				<authors>Prospector, haykam821, TerraformersMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Replay Mod" id="replaymod" depends="" side="CLIENT">
+			<URL priority="1">https://www.replaymod.com/download/download_new.php?version=1.20.4-2.6.14</URL>
+			<Size>13326757</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3946d5e05ed72e548565e46c850d7f96</MD5>
+			<Meta>
+				<license>GPL-3.0-or-later</license>
+				<description>A Mod which allows you to record, replay and share your Minecraft experience.</description>
+				<version>1.20.4-2.6.14</version>
+				<authors>CrushedPixel, johni0702</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Voice Chat" id="voicechat" depends="" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/416089/files/4961477/download</URL>
+			<Size>8081390</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c8d30903d15f3a85d77c1812d1894428</MD5>
+		</Module>
+		<Module name="Sodium" id="sodium" depends="" side="CLIENT">
+			<URL priority="1">https://cdn.modrinth.com/data/AANobbMI/versions/InGKdfel/sodium-fabric-mc1.20.3-0.5.5.jar</URL>
+			<Size>903118</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d73f3b953cbbd83ec69695d1a6e2490</MD5>
+		</Module>
+		<Module name="Starlight" id="starlight" depends="" side="SERVER">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/521783/files/4947005/download</URL>
+			<Size>126410</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e4b2c577ba4501b8cc29c7217eeaf108</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Rewrites the light engine to fix lighting performance and lighting errors</description>
+				<version>1.1.3+fabric.f5dcd1a</version>
+				<authors>Spottedleaf</authors>
+			</Meta>
+		</Module>
+		<Module name="Tweakeroo" id="tweakeroo" depends="malilib" side="CLIENT">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/297344/files/4994283/download</URL>
+			<Size>272806</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>52dd3cf0ed46e51d23bd0954f34bdb71</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Adds a bunch of configurable client-side tweaks</description>
+				<version>0.19.1</version>
+				<authors>masa</authors>
+			</Meta>
+		</Module>
+		<Module name="Carpet Mod" id="carpet" depends="" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/349239/files/4930701/download</URL>
+			<Size>1555727</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d17165f03a208bcb71e9bd27c2beb963</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Carpet made out of fabric</description>
+				<version>1.4.128+v231205</version>
+				<authors>gnembon, ...</authors>
+			</Meta>
+		</Module>
+		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
+			<URL priority="1">https://www.curseforge.com/api/v1/mods/225608/files/4954438/download</URL>
+			<Size>6101312</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>79c8ac7c3fd571218fd53142b587aad3</MD5>
+			<Meta>
+				<license>GPL3</license>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single- and multi-player.</description>
+				<version>7.3.0-beta-03+d6d222e</version>
+				<authors>EngineHub</authors>
+			</Meta>
+		</Module>
+		<Module name="Sound Physics Remastered" id="sound_physics_remastered" depends="" side="BOTH">
+			<URL priority="1">https://cdn.modrinth.com/data/qyVF9oeo/versions/th5AIucC/sound-physics-remastered-fabric-1.20.4-1.3.1.jar</URL>
+			<Size>174028</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>03ab978129ce5b86db134bbb0bb1aea0</MD5>
+			<Meta>
+				<license>GPL</license>
+				<description>Provides realistic sound attenuation, reverberation, and absorption through blocks.</description>
+				<version>1.20.4-1.3.1</version>
+				<authors>Sonic Ether, vlad2305m, Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Voice Chat Enhanced Groups" id="enhancedgroups" depends="voicechat" side="SERVER">
+			<URL priority="1">https://cdn.modrinth.com/data/1LE7mid6/versions/gKlm3qrT/instantgroup-fabric-1.20.4-1.5.2.jar</URL>
+			<Size>419136</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>247125f2a048afad422311a9d27860b2</MD5>
+			<Meta>
+				<license>ARR</license>
+				<description>Instantly create and join groups</description>
+				<version>1.20.4-1.5.2</version>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		<Module name="Voice Chat Interaction" id="vcinteraction" depends="voicechat" side="BOTH">
+			<URL priority="1">https://cdn.modrinth.com/data/qsSP2ZZ0/versions/i7ZfTsAF/vcinteraction-fabric-1.20.4-1.0.6.jar</URL>
+			<Size>407213</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>398c595f4e4080d9a669441ef286d306</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Voice Chat Interaction</description>
+				<version>1.20.4-1.0.6</version>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>

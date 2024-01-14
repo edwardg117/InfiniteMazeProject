@@ -398,3 +398,9 @@ FodyWeavers.xsd
 *.sln.iml
 MCU-CLI-latest.jar
 MCU-API.log*
+Server/build.jar
+Server/instance.json
+Server/*.jar
+Server/cache/
+Server/libraries/
+Server/mods/
